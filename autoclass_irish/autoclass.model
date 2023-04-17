@@ -1,0 +1,4 @@
+model_index 0 3
+ignore 0
+single_normal_cn 1 2
+single_multinomial 3 4 5

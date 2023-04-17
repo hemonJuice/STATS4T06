@@ -1,0 +1,763 @@
+search_DS
+n, time, n_dups, n_dup_tries 
+200 9 124 1429
+last try reported
+0
+tries from best on down for n_tries 
+76
+search_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+125 0 8 8 -5.58932159e+03 45 1000
+n_dups
+0
+search_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+157 0 10 10 -5.60067360e+03 109 1000
+n_dups
+0
+search_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+122 0 7 7 -5.60594892e+03 37 1000
+n_dups
+1
+search_try_DS 2 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+128 0 7 7 -5.60594893e+03 37 1000
+search_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+159 0 6 6 -5.60797314e+03 73 1000
+n_dups
+20
+search_try_DS 3 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+161 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+163 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+165 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+167 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+169 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+171 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+173 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 7
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+175 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 8
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+177 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 9
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+179 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 10
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+181 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 11
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+183 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 12
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+185 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 13
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+187 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 14
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+189 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 15
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+191 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 16
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+193 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 17
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+195 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 18
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+197 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 3 dup_try_DS 19
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+199 0 6 6 -5.60797314e+03 73 1000
+search_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+73 0 6 6 -5.60802517e+03 101 1000
+n_dups
+15
+search_try_DS 4 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+76 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+79 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+82 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+85 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+88 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+91 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+94 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 7
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+97 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 8
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+100 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 9
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+103 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 10
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+106 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 11
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+109 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 12
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+112 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 13
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+115 0 6 6 -5.60802526e+03 101 1000
+search_try_DS 4 dup_try_DS 14
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+118 1 6 6 -5.60802526e+03 101 1000
+search_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+119 0 5 5 -5.60960467e+03 54 1000
+n_dups
+0
+search_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+158 0 7 7 -5.61112722e+03 30 1000
+n_dups
+21
+search_try_DS 6 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+160 0 7 7 -5.61112730e+03 30 1000
+search_try_DS 6 dup_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+162 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+164 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+166 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+168 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+170 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+172 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 7
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+174 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 8
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+176 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 9
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+178 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 10
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+180 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 11
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+182 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 12
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+184 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 13
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+186 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 14
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+188 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 15
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+190 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 16
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+192 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 17
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+194 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 18
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+196 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 19
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+198 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 6 dup_try_DS 20
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+200 0 7 7 -5.61112729e+03 30 1000
+search_try_DS 7
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+4 0 7 7 -5.61475704e+03 41 1000
+n_dups
+0
+search_try_DS 8
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+70 0 8 8 -5.62047364e+03 100 1000
+n_dups
+0
+search_try_DS 9
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+123 0 11 10 -5.62768995e+03 133 1000
+n_dups
+0
+search_try_DS 10
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+129 0 10 10 -5.62827200e+03 43 1000
+n_dups
+27
+search_try_DS 10 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+130 0 10 10 -5.62827212e+03 43 1000
+search_try_DS 10 dup_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+131 0 10 10 -5.62827205e+03 43 1000
+search_try_DS 10 dup_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+132 0 10 10 -5.62827217e+03 43 1000
+search_try_DS 10 dup_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+133 0 10 10 -5.62827207e+03 43 1000
+search_try_DS 10 dup_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+134 0 10 10 -5.62827208e+03 43 1000
+search_try_DS 10 dup_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+135 0 10 10 -5.62827205e+03 43 1000
+search_try_DS 10 dup_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+136 0 10 10 -5.62827217e+03 43 1000
+search_try_DS 10 dup_try_DS 7
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+137 0 10 10 -5.62827207e+03 43 1000
+search_try_DS 10 dup_try_DS 8
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+138 0 10 10 -5.62827208e+03 43 1000
+search_try_DS 10 dup_try_DS 9
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+139 0 10 10 -5.62827205e+03 43 1000
+search_try_DS 10 dup_try_DS 10
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+140 0 10 10 -5.62827217e+03 43 1000
+search_try_DS 10 dup_try_DS 11
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+141 0 10 10 -5.62827207e+03 43 1000
+search_try_DS 10 dup_try_DS 12
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+142 0 10 10 -5.62827208e+03 43 1000
+search_try_DS 10 dup_try_DS 13
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+143 0 10 10 -5.62827205e+03 43 1000
+search_try_DS 10 dup_try_DS 14
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+144 0 10 10 -5.62827217e+03 43 1000
+search_try_DS 10 dup_try_DS 15
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+145 0 10 10 -5.62827207e+03 43 1000
+search_try_DS 10 dup_try_DS 16
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+146 0 10 10 -5.62827208e+03 43 1000
+search_try_DS 10 dup_try_DS 17
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+147 0 10 10 -5.62827205e+03 43 1000
+search_try_DS 10 dup_try_DS 18
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+148 0 10 10 -5.62827217e+03 43 1000
+search_try_DS 10 dup_try_DS 19
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+149 0 10 10 -5.62827207e+03 43 1000
+search_try_DS 10 dup_try_DS 20
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+150 0 10 10 -5.62827208e+03 43 1000
+search_try_DS 10 dup_try_DS 21
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+151 0 10 10 -5.62827205e+03 43 1000
+search_try_DS 10 dup_try_DS 22
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+152 0 10 10 -5.62827217e+03 43 1000
+search_try_DS 10 dup_try_DS 23
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+153 0 10 10 -5.62827207e+03 43 1000
+search_try_DS 10 dup_try_DS 24
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+154 0 10 10 -5.62827208e+03 43 1000
+search_try_DS 10 dup_try_DS 25
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+155 0 10 10 -5.62827205e+03 43 1000
+search_try_DS 10 dup_try_DS 26
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+156 1 10 10 -5.62827217e+03 43 1000
+search_try_DS 11
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+69 0 9 9 -5.63302850e+03 37 1000
+n_dups
+0
+search_try_DS 12
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+72 0 10 10 -5.63694240e+03 95 1000
+n_dups
+0
+search_try_DS 13
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+126 0 6 6 -5.64045491e+03 43 1000
+n_dups
+0
+search_try_DS 14
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+6 0 15 15 -5.64652470e+03 120 1000
+n_dups
+0
+search_try_DS 15
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+68 0 11 11 -5.64939719e+03 77 1000
+n_dups
+0
+search_try_DS 16
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+121 0 9 9 -5.65057032e+03 45 1000
+n_dups
+0
+search_try_DS 17
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+74 0 5 5 -5.65064943e+03 21 1000
+n_dups
+14
+search_try_DS 17 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+77 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+80 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+83 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+86 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+89 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+92 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+95 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 7
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+98 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 8
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+101 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 9
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+104 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 10
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+107 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 11
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+110 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 12
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+113 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 17 dup_try_DS 13
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+116 0 5 5 -5.65064943e+03 21 1000
+search_try_DS 18
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+127 0 13 13 -5.65074781e+03 57 1000
+n_dups
+0
+search_try_DS 19
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+124 0 12 12 -5.65712562e+03 69 1000
+n_dups
+0
+search_try_DS 20
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+33 0 3 3 -5.65846192e+03 23 1000
+n_dups
+0
+search_try_DS 21
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+19 0 17 17 -5.66022303e+03 45 1000
+n_dups
+11
+search_try_DS 21 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+20 0 17 17 -5.66022307e+03 45 1000
+search_try_DS 21 dup_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+21 0 17 17 -5.66022306e+03 45 1000
+search_try_DS 21 dup_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+22 0 17 17 -5.66022307e+03 45 1000
+search_try_DS 21 dup_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+23 0 17 17 -5.66022306e+03 45 1000
+search_try_DS 21 dup_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+24 0 17 17 -5.66022307e+03 45 1000
+search_try_DS 21 dup_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+25 0 17 17 -5.66022306e+03 45 1000
+search_try_DS 21 dup_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+26 0 17 17 -5.66022307e+03 45 1000
+search_try_DS 21 dup_try_DS 7
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+27 0 17 17 -5.66022306e+03 45 1000
+search_try_DS 21 dup_try_DS 8
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+28 0 17 17 -5.66022307e+03 45 1000
+search_try_DS 21 dup_try_DS 9
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+29 0 17 17 -5.66022306e+03 45 1000
+search_try_DS 21 dup_try_DS 10
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+30 1 17 17 -5.66022307e+03 45 1000
+search_try_DS 22
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+71 0 12 12 -5.66258583e+03 71 1000
+n_dups
+0
+search_try_DS 23
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+5 0 10 10 -5.66650889e+03 62 1000
+n_dups
+0
+search_try_DS 24
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+3 0 5 5 -5.66867383e+03 26 1000
+n_dups
+0
+search_try_DS 25
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+35 0 6 6 -5.67182923e+03 49 1000
+n_dups
+8
+search_try_DS 25 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+39 0 6 6 -5.67182946e+03 49 1000
+search_try_DS 25 dup_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+43 0 6 6 -5.67182931e+03 49 1000
+search_try_DS 25 dup_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+47 0 6 6 -5.67182946e+03 49 1000
+search_try_DS 25 dup_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+51 0 6 6 -5.67182931e+03 49 1000
+search_try_DS 25 dup_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+55 0 6 6 -5.67182946e+03 49 1000
+search_try_DS 25 dup_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+59 0 6 6 -5.67182931e+03 49 1000
+search_try_DS 25 dup_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+63 0 6 6 -5.67182946e+03 49 1000
+search_try_DS 25 dup_try_DS 7
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+67 1 6 6 -5.67182931e+03 49 1000
+search_try_DS 26
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+34 0 12 12 -5.67384553e+03 48 1000
+n_dups
+0
+search_try_DS 27
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+36 0 11 11 -5.67948362e+03 56 1000
+n_dups
+7
+search_try_DS 27 dup_try_DS 0
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+40 0 11 11 -5.67948363e+03 56 1000
+search_try_DS 27 dup_try_DS 1
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+44 0 11 11 -5.67948379e+03 56 1000
+search_try_DS 27 dup_try_DS 2
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+48 0 11 11 -5.67948363e+03 56 1000
+search_try_DS 27 dup_try_DS 3
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+52 0 11 11 -5.67948379e+03 56 1000
+search_try_DS 27 dup_try_DS 4
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+56 0 11 11 -5.67948363e+03 56 1000
+search_try_DS 27 dup_try_DS 5
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+60 0 11 11 -5.67948379e+03 56 1000
+search_try_DS 27 dup_try_DS 6
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+64 0 11 11 -5.67948363e+03 56 1000
+search_try_DS 28
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+18 0 18 18 -5.68051920e+03 72 1000
+n_dups
+0
+search_try_DS 29
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+32 0 13 13 -5.68839049e+03 53 1000
+n_dups
+0
+search_try_DS 30
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+46 0 7 7 -5.69136902e+03 50 1000
+n_dups
+0
+search_try_DS 31
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+54 0 7 7 -5.69136902e+03 50 1000
+n_dups
+0
+search_try_DS 32
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+62 0 7 7 -5.69136902e+03 50 1000
+n_dups
+0
+search_try_DS 33
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+38 0 7 7 -5.69136905e+03 50 1000
+n_dups
+0
+search_try_DS 34
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+42 0 7 7 -5.69136914e+03 50 1000
+n_dups
+0
+search_try_DS 35
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+50 0 7 7 -5.69136914e+03 50 1000
+n_dups
+0
+search_try_DS 36
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+58 0 7 7 -5.69136914e+03 50 1000
+n_dups
+0
+search_try_DS 37
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+66 0 7 7 -5.69136914e+03 50 1000
+n_dups
+0
+search_try_DS 38
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+2 0 3 3 -5.69496149e+03 18 1000
+n_dups
+0
+search_try_DS 39
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+45 0 8 8 -5.70344317e+03 47 1000
+n_dups
+0
+search_try_DS 40
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+53 0 8 8 -5.70344317e+03 47 1000
+n_dups
+0
+search_try_DS 41
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+61 0 8 8 -5.70344317e+03 47 1000
+n_dups
+0
+search_try_DS 42
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+37 0 8 8 -5.70344340e+03 47 1000
+n_dups
+0
+search_try_DS 43
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+41 0 8 8 -5.70344356e+03 47 1000
+n_dups
+0
+search_try_DS 44
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+49 0 8 8 -5.70344356e+03 47 1000
+n_dups
+0
+search_try_DS 45
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+57 0 8 8 -5.70344356e+03 47 1000
+n_dups
+0
+search_try_DS 46
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+65 0 8 8 -5.70344356e+03 47 1000
+n_dups
+0
+search_try_DS 47
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+75 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 48
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+78 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 49
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+81 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 50
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+84 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 51
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+87 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 52
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+90 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 53
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+93 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 54
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+96 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 55
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+99 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 56
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+102 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 57
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+105 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 58
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+108 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 59
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+111 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 60
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+114 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 61
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+117 0 4 4 -5.72241746e+03 29 1000
+n_dups
+0
+search_try_DS 62
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+120 0 19 19 -5.73346392e+03 62 1000
+n_dups
+0
+search_try_DS 63
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+1 0 2 2 -5.75275115e+03 13 1000
+n_dups
+0
+search_try_DS 64
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+7 1 25 25 -5.75430224e+03 232 1000
+n_dups
+0
+search_try_DS 65
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+31 0 17 17 -5.76986130e+03 74 1000
+n_dups
+0
+search_try_DS 66
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+8 0 35 31 -5.79274637e+03 206 1000
+n_dups
+0
+search_try_DS 67
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+17 0 36 31 -5.81372149e+03 283 1000
+n_dups
+0
+search_try_DS 68
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+9 0 45 40 -5.88949835e+03 112 1000
+n_dups
+0
+search_try_DS 69
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+10 0 55 42 -5.90557756e+03 141 1000
+n_dups
+0
+search_try_DS 70
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+11 1 65 45 -5.91768297e+03 265 1000
+n_dups
+0
+search_try_DS 71
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+16 1 80 48 -5.92549382e+03 249 1000
+n_dups
+0
+search_try_DS 72
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+12 0 75 50 -5.96133546e+03 113 1000
+n_dups
+0
+search_try_DS 73
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+14 1 95 52 -5.97094458e+03 147 1000
+n_dups
+0
+search_try_DS 74
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+15 0 105 53 -5.97800415e+03 264 1000
+n_dups
+0
+search_try_DS 75
+n, time, j_in, j_out, ln_p, num_cycles, max_cycles
+13 0 85 53 -5.98463348e+03 153 1000
+n_dups
+0
+start_j_list
+-999
+n_final_summary, n_save
+10 2

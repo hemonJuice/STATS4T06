@@ -1,0 +1,11 @@
+num_db2_format_defs 2
+
+number_of_attributes 6
+separator_char '	'
+
+0 dummy nil "ID"
+1 real scalar "a1" zero_point 0.0 rel_error 0.01
+2 real scalar "a2" zero_point 0.0 rel_error 0.01
+3 discrete nominal "a3" range 2
+4 discrete nominal "a4" range 10
+5 discrete nominal "a5" range 3

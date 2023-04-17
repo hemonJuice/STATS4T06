@@ -1,0 +1,36 @@
+find_singleton_transform: att_index = 1, index = 0
+find_singleton_transform: att_index = 2, index = 0
+find_singleton_transform: att_index = 3, index = 0
+find_singleton_transform: att_index = 4, index = 0
+find_singleton_transform: att_index = 5, index = 0
+find_singleton_transform: att_index = 6, index = 0
+find_singleton_transform: att_index = 7, index = 0
+find_singleton_transform: att_index = 8, index = 0
+
+
+
+### Starting Check of /home/hanwen/auto/autoclass.r-params
+### Ending Check of   /home/hanwen/auto/autoclass.r-params
+
+
+AUTOCLASS C (version 3.3.6unx) STARTING at Mon Feb 27 02:31:32 2023 
+
+ADVISORY[2]: read 10 attribute defs from 
+             /home/hanwen/auto/autoclass.hd2
+ADVISORY[1]: read 462 datum from 
+             /home/hanwen/auto/autoclass.db2
+ADVISORY: loaded 2 classifications from 
+          /home/hanwen/auto/autoclass.results-bin
+ADVISORY: read 156 search trials from 
+          /home/hanwen/auto/autoclass.search
+
+
+File written: /home/hanwen/auto/autoclass.influ-o-data-1
+
+File written: /home/hanwen/auto/autoclass.case-data-1
+
+File written: /home/hanwen/auto/autoclass.class-data-1
+
+
+AUTOCLASS C (version 3.3.6unx) STOPPING at Mon Feb 27 02:31:32 2023 
+

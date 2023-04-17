@@ -1,0 +1,195 @@
+
+
+AUTOCLASS C (version 3.3.6unx) STARTING at Mon Feb 27 09:49:01 2023 
+
+AUTOCLASS -SEARCH default parameters:
+rel_error=1.000000e-02; start_j_list=(2,3,5,7,10,15,25); n_classes_fn_type="random_ln_normal"; fixed_j=0; min_report_period=30; max_duration=0; max_n_tries=0; n_save=2; log_file_p=true; search_file_p=true; results_file_p=true; min_save_period=1800; max_n_store=10; n_final_summary=10; start_fn_type="random"; try_fn_type="converge_search_3"; initial_cycles_p=true; save_compact_p=true; read_compact_p=true; randomize_random_p=true; n_data=0; halt_range=5.000000e-01; halt_factor=1.000000e-04; rel_delta_range=2.500000e-03; n_average=3; cs4_delta_range=2.500000e-03; sigma_beta_n_values=6; max_cycles=200; converge_print_p=false; force_new_search_p=true; checkpoint_p=false; min_checkpoint_period=10800; reconverge_type=""; screen_output_p=true; interactive_p=true; break_on_warnings_p=true; free_storage_p=true
+
+USER supplied parameters which override the defaults:
+start_j_list=(2,3,5,7,10,15,25,35,45,55,65,75,85,95,105); max_duration=3600; max_n_tries=200; max_cycles=1000; force_new_search_p=true; screen_output_p=false; break_on_warnings_p=false
+
+
+##############  Starting Input Check  ###############
+
+To log file: 
+   /home/hanwen/auto/autoclass.log
+During loading of: 
+   [1] /home/hanwen/auto/autoclass.db2,
+   [2] /home/hanwen/auto/autoclass.hd2,
+   [3] /home/hanwen/auto/autoclass.model.
+
+   [Attribute #, value #, and datum # are zero based.]
+
+ADVISORY[2]: data_file_format settings:
+             separator_char = '	', comment_char = ';', unknown_token = '?'
+ADVISORY[2]: read 14 attribute defs from 
+             /home/hanwen/auto/autoclass.hd2
+ADVISORY[1]: read 1025 datum from 
+             /home/hanwen/auto/autoclass.db2
+ADVISORY[1]: discrete translations [ (internal external):count ... ] built 
+             from input data --
+   Attribute #6, "sex":
+      [ (0 f):713 (1 m):312 ]
+   Attribute #7, "cp":
+      [ (0 a):497 (1 b):167 (2 c):284 (3 d):77 ]
+   Attribute #8, "fbs":
+      [ (0 a):872 (1 b):153 ]
+   Attribute #9, "restecg":
+      [ (0 b):513 (1 a):497 (2 c):15 ]
+   Attribute #10, "exang":
+      [ (0 a):680 (1 b):345 ]
+   Attribute #11, "slope":
+      [ (0 c):469 (1 a):74 (2 b):482 ]
+   Attribute #12, "ca":
+      [ (0 c):134 (1 a):578 (2 b):226 (3 d):69 (4 e):18 ]
+   Attribute #13, "thal":
+      [ (0 d):410 (1 c):544 (2 b):64 (3 a):7 ]
+ADVISORY[1]: real statistics [ min < (mean : std dev) < max ] built 
+             from input data --
+   Attribute #1, "age":
+      [  2.9000e+01 < ( 5.4434e+01 : 9.0679e+00) <  7.7000e+01 ]
+   Attribute #2, "trestbps":
+      [  9.4000e+01 < ( 1.3161e+02 : 1.7508e+01) <  2.0000e+02 ]
+   Attribute #3, "chol":
+      [  1.2600e+02 < ( 2.4600e+02 : 5.1567e+01) <  5.6400e+02 ]
+   Attribute #4, "thalach":
+      [  7.1000e+01 < ( 1.4911e+02 : 2.2994e+01) <  2.0200e+02 ]
+   Attribute #5, "oldpeak":
+      [  0.0000e+00 < ( 1.0715e+00 : 1.1745e+00) <  6.2000e+00 ]
+ADVISORY[3]: read 1 model def from 
+             /home/hanwen/auto/autoclass.model
+ADVISORY[2]: log_transform is being applied to attribute #1:
+             "age" and will be stored as attribute #14.
+   Attribute #14, "Log age":
+      [  3.3673e+00 < ( 3.9822e+00 : 1.7536e-01) <  4.3438e+00 ]
+ADVISORY[2]: log_transform is being applied to attribute #2:
+             "trestbps" and will be stored as attribute #15.
+   Attribute #15, "Log trestbps":
+      [  4.5433e+00 < ( 4.8713e+00 : 1.2978e-01) <  5.2983e+00 ]
+ADVISORY[2]: log_transform is being applied to attribute #3:
+             "chol" and will be stored as attribute #16.
+   Attribute #16, "Log chol":
+      [  4.8363e+00 < ( 5.4844e+00 : 2.0354e-01) <  6.3351e+00 ]
+ADVISORY[2]: log_transform is being applied to attribute #4:
+             "thalach" and will be stored as attribute #17.
+   Attribute #17, "Log thalach":
+      [  4.2627e+00 < ( 4.9917e+00 : 1.6588e-01) <  5.3083e+00 ]
+ADVISORY[2]: log_transform is being applied to attribute #5:
+             "oldpeak" and will be stored as attribute #18.
+   Attribute #18, "Log oldpeak":
+      [ -4.5361e+00 < (-1.3450e+00 : 2.3078e+00) <  1.8263e+00 ]
+
+############ Input Check Concluded ##############
+
+WELCOME TO AUTOCLASS.
+  1) Each time I have finished a new 'trial', or attempt to find a good
+     classification, I will print the number of classes that trial
+     started and ended with, such as 9->7.
+  2) If that trial results in a duplicate of a previous run, I will print
+     'dup' first.
+  3) If that trial results in a classification better than any previous, 
+     I will print 'best' first.
+  4) If more than 30 seconds have passed since the last report, and a new
+     classification has been found which is better than any previous ones,
+     I will report on that classification and on the status of the search
+     so far.
+  5) This report will include an estimate of the time it will take to find
+     another even better classification, and how much better that will be.
+     In addition, I will estimate a lower bound on how long it might take to
+     find the very best classification, and how much better that might be.
+  6) If you are warned about too much time in overhead, you may want to
+     change the parameters n_save, min_save_period, min_report_period, or
+     min_checkpoint_period.
+  7) To quit searching, type a 'q', hit <return>, and wait.  Otherwise I'll
+     go on until Mon Feb 27 10:49:01 2023.
+  8) If needed, every 30 minutes I will save the best 2 classifications
+     so far to file: 
+     /home/hanwen/auto/autoclass.results-bin
+     and a description of the search to file:
+     /home/hanwen/auto/autoclass.search
+  9) A record of this search will be printed to file:
+     /home/hanwen/auto/autoclass.log
+
+BEGINNING SEARCH at Mon Feb 27 09:49:01 2023
+
+[j_in=2]  [cs-3: cycles 19] best2->2(1) [j_in=3]  [cs-3: cycles 30] best3->3(2) [j_in=5]  [cs-3: cycles 19] best5->5(3) [j_in=7]  [cs-3: cycles 44] 7->7(4) [j_in=10]  [cs-3: cycles 51] best10->10(5) [j_in=15]  [cs-3: cycles 41] best15->15(6) [j_in=25]  [cs-3: cycles 68] best25->25(7) [j_in=35]  [cs-3: cycles 58] 35->35(8) [j_in=45]  [cs-3: cycles 71] 45->44(9) [j_in=55]  [cs-3: cycles 50] 55->54(10) [j_in=65]  [cs-3: cycles 33] best65->65(11) [j_in=75]  [cs-3: cycles 53] best75->75(12) [j_in=85]  [cs-3: cycles 71] best85->85(13) [j_in=95]  [cs-3: cycles 30] 95->95(14) [j_in=105]  [cs-3: cycles 43] 105->105(15) [j_in=30]  [cs-3: cycles 68] 30->30(16) [j_in=48]  [cs-3: cycles 50] 48->48(17) [j_in=50]  [cs-3: cycles 63] 50->50(18) [j_in=37]  [cs-3: cycles 69] 37->37(19) [j_in=42]  [cs-3: cycles 76] 42->42(20) [j_in=71]  [cs-3: cycles 47] 71->70(21) [j_in=89]  [cs-3: cycles 42] 89->86(22) [j_in=90]  [cs-3: cycles 40] 90->87(23) [j_in=56]  [cs-3: cycles 46] 56->56(24) [j_in=33]  [cs-3: cycles 72] 33->33(25) [j_in=96]  [cs-3: cycles 25] 96->94(26) [j_in=71]  [cs-3: cycles 62] 71->70(27) [j_in=107]  [cs-3: cycles 31] 107->106(28) [j_in=39]  [cs-3: cycles 42] 39->39(29) [j_in=53]  [cs-3: cycles 85] 53->53(30) [j_in=47]  [cs-3: cycles 60] 47->47(31) [j_in=59]  [cs-3: cycles 32] 59->59(32) [j_in=127]  [cs-3: cycles 22] 127->119(33) [j_in=81]  [cs-3: cycles 25] 81->79(34) [j_in=67]  [cs-3: cycles 52] 67->67(35) [j_in=52]  [cs-3: cycles 57] 52->52(36) [j_in=66]  [cs-3: cycles 26] 66->66(37) [j_in=79]  [cs-3: cycles 34] 79->78(38) [j_in=38]  [cs-3: cycles 123] 38->38(39) [j_in=114]  [cs-3: cycles 16] 114->109(40) [j_in=54]  [cs-3: cycles 69] 54->54(41) [j_in=47]  [cs-3: cycles 37] 47->47(42) [j_in=89]  [cs-3: cycles 71] 89->88(43) [j_in=167]  [cs-3: cycles 16] 167->153(44) [j_in=94]  [cs-3: cycles 45] 94->92(45) [j_in=101]  [cs-3: cycles 53] 101->97(46) [j_in=119]  [cs-3: cycles 36] 119->115(47) [j_in=96]  [cs-3: cycles 31] 96->95(48) [j_in=80]  [cs-3: cycles 27] 80->79(49) [j_in=95]  [cs-3: cycles 32] 95->94(50) [j_in=109]  [cs-3: cycles 31] 109->107(51) [j_in=148]  [cs-3: cycles 14] 148->135(52) [j_in=169]  [cs-3: cycles 22] 169->151(53) [j_in=113]  [cs-3: cycles 46] 113->107(54) [j_in=84]  [cs-3: cycles 62] 84->81(55) [j_in=70]  [cs-3: cycles 53] 70->69(56) [j_in=90]  [cs-3: cycles 52] 90->89(57) [j_in=75]  [cs-3: cycles 42] 75->74(58) [j_in=72]  [cs-3: cycles 26] 72->71(59) [j_in=79]  [cs-3: cycles 22] 79->78(60) [j_in=74]  [cs-3: cycles 25] 74->73(61) [j_in=126]  [cs-3: cycles 39] 126->119(62) [j_in=58]  [cs-3: cycles 38] 58->58(63) [j_in=101]  [cs-3: cycles 28] 101->100(64) [j_in=86]  [cs-3: cycles 49] 86->84(65) [j_in=135]  [cs-3: cycles 28] 135->130(66) [j_in=61]  [cs-3: cycles 40] 61->60(67) [j_in=39]  [cs-3: cycles 83] 39->38(68) [j_in=102]  [cs-3: cycles 21] 102->99(69) [j_in=105]  [cs-3: cycles 21] 105->102(70) [j_in=87]  [cs-3: cycles 39] 87->83(71) [j_in=80]  [cs-3: cycles 25] 80->80(72) [j_in=154]  [cs-3: cycles 28] 154->137(73) [j_in=56]  [cs-3: cycles 55] 56->56(74) [j_in=26]  [cs-3: cycles 70] 26->26(75) [j_in=50]  [cs-3: cycles 39] 50->50(76) [j_in=73]  [cs-3: cycles 40] 73->73(77) [j_in=44]  [cs-3: cycles 51] 44->44(78) [j_in=69]  [cs-3: cycles 37] 69->69(79) [j_in=53]  [cs-3: cycles 50] 53->53(80) [j_in=60]  [cs-3: cycles 37] 60->60(81) [j_in=121]  [cs-3: cycles 26] 121->118(82) [j_in=57]  [cs-3: cycles 44] 57->57(83) [j_in=56]  [cs-3: cycles 50] 56->56(84) [j_in=37]  [cs-3: cycles 49] 37->37(85) [j_in=52]  [cs-3: cycles 46] 52->52(86) [j_in=87]  [cs-3: cycles 21] 87->85(87) [j_in=83]  [cs-3: cycles 19] 83->81(88) [j_in=74]  [cs-3: cycles 86] 74->74(89) [j_in=90]  [cs-3: cycles 28] 90->84(90) [j_in=101]  [cs-3: cycles 36] 101->95(91) [j_in=86]  [cs-3: cycles 21] 86->85(92) [j_in=104]  [cs-3: cycles 23] 104->101(93) [j_in=78]  [cs-3: cycles 74] 78->77(94) [j_in=108]  [cs-3: cycles 62] 108->105(95) [j_in=134]  [cs-3: cycles 42] 134->123(96) 
+
+----------------  NEW BEST CLASSIFICATION FOUND on try 13  -------------
+It has 85 CLASSES with WEIGHTS 44 43 34 31 30 27 26 26 26 22 21 21 21 19 19 18 18 17 17 17 17 17 16 15 14 14 14 14 13 13 13 12 12 11 11 11 10 10 10 10 10 10 10 10 9 9 8 8 8 8 8 7 7 7 7 7 7 7 7 6 6 6 6 6 6 6 6 6 6 4 4 4 4 4 4 4 4 4 3 3 3 3 3 3 3
+PROBABILITY of both the data and the classification = exp(-28236.949)
+(Also found 12 other better than last report.)
+
+-----------  SEARCH STATUS as of Mon Feb 27 09:49:32 2023  -----------
+It just took 31 seconds since beginning.
+Estimate < 31 seconds to find a classification
+  exp(29.5) [= 6.6e+12] times more probable.
+Estimate >> 4 minutes 29 seconds to find the very best classification,
+ which may be exp(14.6) to exp(6370.3) times more probable.
+Have seen 96 of the estimated > 905 possible classifications (based on 0
+ duplicates do far).
+Log-Normal fit to classifications probabilities has M(ean) -28576.6,
+ S(igma) 115.8
+Choosing initial n-classes randomly from a log_normal [M-S, M, M+S] = 
+ [55.9, 86.2, 132.7]
+Overhead time is 3.1 % of total search time
+
+[j_in=56]  [cs-3: cycles 43] 56->56(97) [j_in=69]  [cs-3: cycles 20] 69->69(98) [j_in=72]  [cs-3: cycles 36] 72->72(99) [j_in=73]  [cs-3: cycles 23] 73->73(100) [j_in=207]  [cs-3: cycles 32] 207->174(101) [j_in=110]  [cs-3: cycles 57] 110->106(102) [j_in=64]  [cs-3: cycles 46] 64->62(103) [j_in=123]  [cs-3: cycles 26] 123->118(104) [j_in=187]  [cs-3: cycles 17] 187->165(105) [j_in=261]  [cs-3: cycles 54] best261->198(106) [j_in=443]  [cs-3: cycles 23] 443->194(107) [j_in=36]  [cs-3: cycles 79] 36->36(108) [j_in=45]  [cs-3: cycles 42] 45->45(109) [j_in=212]  [cs-3: cycles 25] 212->170(110) [j_in=46]  [cs-3: cycles 56] 46->46(111) [j_in=109]  [cs-3: cycles 47] 109->106(112) [j_in=84]  [cs-3: cycles 123] 84->81(113) [j_in=145]  [cs-3: cycles 27] 145->132(114) [j_in=281]  [cs-3: cycles 32] 281->205(115) [j_in=121]  [cs-3: cycles 26] 121->116(116) [j_in=443]  [cs-3: cycles 26] 443->201(117) [j_in=167]  [cs-3: cycles 29] 167->151(118) [j_in=89]  [cs-3: cycles 82] 89->88(119) [j_in=247]  [cs-3: cycles 23] 247->195(120) [j_in=228]  [cs-3: cycles 30] 228->179(121) [j_in=224]  [cs-3: cycles 30] 224->180(122) [j_in=378]  [cs-3: cycles 20] 378->215(123) [j_in=241]  [cs-3: cycles 19] 241->199(124) [j_in=443]  [cs-3: cycles 26] 443->191(125) [j_in=410]  [cs-3: cycles 31] 410->206(126) [j_in=136]  [cs-3: cycles 36] 136->129(127) [j_in=443]  [cs-3: cycles 38] 443->183(128) [j_in=278]  [cs-3: cycles 14] best278->203(129) [j_in=171]  [cs-3: cycles 48] 171->156(130) [j_in=199]  [cs-3: cycles 22] 199->166(131) [j_in=318]  [cs-3: cycles 19] 318->207(132) [j_in=211]  [cs-3: cycles 18] 211->177(133) [j_in=267]  [cs-3: cycles 33] 267->201(134) [j_in=283]  [cs-3: cycles 22] 283->210(135) [j_in=399]  [cs-3: cycles 16] 399->216(136) [j_in=225]  [cs-3: cycles 16] 225->180(137) [j_in=300]  [cs-3: cycles 25] 300->200(138) [j_in=207]  [cs-3: cycles 21] 207->184(139) [j_in=254]  [cs-3: cycles 57] 254->204(140) [j_in=338]  [cs-3: cycles 26] 338->205(141) [j_in=322]  [cs-3: cycles 17] 322->216(142) [j_in=124]  [cs-3: cycles 31] 124->122(143) [j_in=342]  [cs-3: cycles 14] 342->216(144) [j_in=443]  [cs-3: cycles 13] 443->204(145) [j_in=443]  [cs-3: cycles 13] 443->205(146) [j_in=443]  [cs-3: cycles 13] 443->205(147) [j_in=443]  [cs-3: cycles 13] 443->186(148) [j_in=237]  [cs-3: cycles 29] 237->187(149) [j_in=300]  [cs-3: cycles 11] 300->202(150) [j_in=399]  [cs-3: cycles 48] 399->198(151) [j_in=196]  [cs-3: cycles 16] 196->161(152) [j_in=443]  [cs-3: cycles 15] 443->196(153) [j_in=373]  [cs-3: cycles 16] 373->204(154) [j_in=369]  [cs-3: cycles 23] 369->205(155) [j_in=443]  [cs-3: cycles 29] 443->189(156) [j_in=312]  [cs-3: cycles 13] 312->207(157) [j_in=289]  [cs-3: cycles 13] 289->208(158) [j_in=337]  [cs-3: cycles 36] 337->208(159) [j_in=344]  [cs-3: cycles 36] 344->210(160) 
+
+----------------  NEW BEST CLASSIFICATION FOUND on try 129  -------------
+It has 203 CLASSES with WEIGHTS 18 15 14 14 14 13 12 11 11 11 11 10 10 10 10 10 9 9 9 9 9 8 8 8 8 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+PROBABILITY of both the data and the classification = exp(-28058.044)
+(Also found 10 other better than last report.)
+
+-----------  SEARCH STATUS as of Mon Feb 27 09:50:03 2023  -----------
+It just took 31 seconds to find a classification
+  exp(178.9) [= 5.0e+77] times more probable.
+Estimate < 1 minute 2 seconds to find a classification
+  exp(40.8) [= 5.1e+17] times more probable.
+Estimate >> 9 minutes 5 seconds to find the very best classification,
+ which may be exp(97.3) to exp(13498.0) times more probable.
+Have seen 160 of the estimated > 1545 possible classifications (based on 0
+ duplicates do far).
+Log-Normal fit to classifications probabilities has M(ean) -28497.6,
+ S(igma) 167.0
+Choosing initial n-classes randomly from a log_normal [M-S, M, M+S] = 
+ [266.9, 321.5, 387.4]
+Overhead time is 1.6 % of total search time
+
+[j_in=371]  [cs-3: cycles 44] 371->209(161) [j_in=325]  [cs-3: cycles 19] 325->201(162) [j_in=228]  [cs-3: cycles 27] 228->183(163) [j_in=265]  [cs-3: cycles 26] 265->204(164) [j_in=333]  [cs-3: cycles 15] 333->216(165) [j_in=331]  [cs-3: cycles 40] 331->209(166) [j_in=164]  [cs-3: cycles 34] 164->152(167) [j_in=275]  [cs-3: cycles 16] 275->208(168) [j_in=296]  [cs-3: cycles 50] 296->212(169) [j_in=294]  [cs-3: cycles 23] 294->209(170) [j_in=232]  [cs-3: cycles 16] 232->192(171) [j_in=349]  [cs-3: cycles 18] 349->202(172) [j_in=305]  [cs-3: cycles 15] 305->202(173) [j_in=386]  [cs-3: cycles 14] 386->208(174) [j_in=295]  [cs-3: cycles 22] 295->192(175) [j_in=232]  [cs-3: cycles 19] 232->179(176) [j_in=387]  [cs-3: cycles 15] 387->196(177) [j_in=295]  [cs-3: cycles 15] 295->204(178) [j_in=371]  [cs-3: cycles 15] 371->194(179) [j_in=351]  [cs-3: cycles 25] 351->211(180) [j_in=383]  [cs-3: cycles 22] 383->218(181) [j_in=246]  [cs-3: cycles 26] 246->194(182) [j_in=304]  [cs-3: cycles 13] 304->204(183) [j_in=361]  [cs-3: cycles 15] 361->209(184) [j_in=329]  [cs-3: cycles 12] 329->212(185) [j_in=280]  [cs-3: cycles 15] 280->201(186) [j_in=379]  [cs-3: cycles 18] 379->212(187) [j_in=316]  [cs-3: cycles 13] 316->204(188) [j_in=315]  [cs-3: cycles 13] 315->211(189) [j_in=304]  [cs-3: cycles 12] 304->215(190) [j_in=250]  [cs-3: cycles 43] 250->200(191) [j_in=301]  [cs-3: cycles 12] 301->196(192) [j_in=400]  [cs-3: cycles 29] 400->202(193) [j_in=443]  [cs-3: cycles 13] 443->202(194) [j_in=289]  [cs-3: cycles 16] 289->199(195) [j_in=308]  [cs-3: cycles 22] 308->202(196) [j_in=263]  [cs-3: cycles 16] 263->189(197) [j_in=395]  [cs-3: cycles 14] 395->201(198) [j_in=307]  [cs-3: cycles 13] 307->207(199) [j_in=342]  [cs-3: cycles 14] 342->210(200) 
+
+
+ENDING SEARCH because max number of tries reached at Mon Feb 27 09:50:22 2023
+  after a total of 200 tries over 1 minute 22 seconds
+A log of this search is in file:
+ /home/hanwen/auto/autoclass.log
+The search results are stored in file:
+ /home/hanwen/auto/autoclass.results-bin
+This search can be restarted by having "force_new_search_p = false" in file:
+ /home/hanwen/auto/autoclass.s-params
+ and reinvoking the "autoclass -search ..." form
+
+------------------  SUMMARY OF 10 BEST RESULTS  ------------------
+PROBABILITY  exp(-28058.044) N_CLASSES  203 FOUND ON TRY  129 *SAVED*
+PROBABILITY  exp(-28096.003) N_CLASSES  212 FOUND ON TRY  169 *SAVED*
+PROBABILITY  exp(-28115.078) N_CLASSES  216 FOUND ON TRY  136
+PROBABILITY  exp(-28146.004) N_CLASSES  208 FOUND ON TRY  168
+PROBABILITY  exp(-28147.501) N_CLASSES  198 FOUND ON TRY  106
+PROBABILITY  exp(-28163.552) N_CLASSES  210 FOUND ON TRY  200
+PROBABILITY  exp(-28187.043) N_CLASSES  212 FOUND ON TRY  185
+PROBABILITY  exp(-28188.642) N_CLASSES  194 FOUND ON TRY  179
+PROBABILITY  exp(-28189.175) N_CLASSES  204 FOUND ON TRY  188
+PROBABILITY  exp(-28193.673) N_CLASSES  204 FOUND ON TRY  154
+
+------------------  SUMMARY OF TRY CONVERGENCE  ------------------
+try  129    num_cycles   14    max_cycles 1000    convergent
+try  169    num_cycles   50    max_cycles 1000    convergent
+try  136    num_cycles   16    max_cycles 1000    convergent
+try  168    num_cycles   16    max_cycles 1000    convergent
+try  106    num_cycles   54    max_cycles 1000    convergent
+try  200    num_cycles   14    max_cycles 1000    convergent
+try  185    num_cycles   12    max_cycles 1000    convergent
+try  179    num_cycles   15    max_cycles 1000    convergent
+try  188    num_cycles   13    max_cycles 1000    convergent
+try  154    num_cycles   16    max_cycles 1000    convergent
+
+AUTOCLASS C (version 3.3.6unx) STOPPING at Mon Feb 27 09:50:22 2023 

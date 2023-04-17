@@ -1,0 +1,124 @@
+
+
+AUTOCLASS C (version 3.3.6unx) STARTING at Mon Feb 27 04:52:33 2023 
+
+AUTOCLASS -SEARCH default parameters:
+rel_error=1.000000e-02; start_j_list=(2,3,5,7,10,15,25); n_classes_fn_type="random_ln_normal"; fixed_j=0; min_report_period=30; max_duration=0; max_n_tries=0; n_save=2; log_file_p=true; search_file_p=true; results_file_p=true; min_save_period=1800; max_n_store=10; n_final_summary=10; start_fn_type="random"; try_fn_type="converge_search_3"; initial_cycles_p=true; save_compact_p=true; read_compact_p=true; randomize_random_p=true; n_data=0; halt_range=5.000000e-01; halt_factor=1.000000e-04; rel_delta_range=2.500000e-03; n_average=3; cs4_delta_range=2.500000e-03; sigma_beta_n_values=6; max_cycles=200; converge_print_p=false; force_new_search_p=true; checkpoint_p=false; min_checkpoint_period=10800; reconverge_type=""; screen_output_p=true; interactive_p=true; break_on_warnings_p=true; free_storage_p=true
+
+USER supplied parameters which override the defaults:
+start_j_list=(2,3,5,7,10,15,25,35,45,55,65,75,85,95,105); max_duration=3600; max_n_tries=200; max_cycles=1000; force_new_search_p=true; screen_output_p=false; break_on_warnings_p=false
+
+
+##############  Starting Input Check  ###############
+
+To log file: 
+   /home/hanwen/auto/autoclass.log
+During loading of: 
+   [1] /home/hanwen/auto/autoclass.db2,
+   [2] /home/hanwen/auto/autoclass.hd2,
+   [3] /home/hanwen/auto/autoclass.model.
+
+   [Attribute #, value #, and datum # are zero based.]
+
+ADVISORY[2]: data_file_format settings:
+             separator_char = '	', comment_char = ';', unknown_token = '?'
+ADVISORY[2]: read 6 attribute defs from 
+             /home/hanwen/auto/autoclass.hd2
+ADVISORY[1]: read 468 datum from 
+             /home/hanwen/auto/autoclass.db2
+ADVISORY[1]: discrete translations [ (internal external):count ... ] built 
+             from input data --
+   Attribute #3, "a3":
+      [ (0 male):230 (1 female):238 ]
+   Attribute #4, "a4":
+      [ (0 a):29 (1 b):33 (2 c):151 (3 d):63 (4 e):64 (5 f):47 (6 g):54 (7 h):12 (8 i):9 (9 j):6 ]
+   Attribute #5, "a5":
+      [ (0 a):305 (1 b):33 (2 c):130 ]
+ADVISORY[1]: real statistics [ min < (mean : std dev) < max ] built 
+             from input data --
+   Attribute #1, "a1":
+      [  6.5000e+01 < ( 9.9987e+01 : 1.5280e+01) <  1.4000e+02 ]
+   Attribute #2, "a2":
+      [  1.8000e+01 < ( 3.8840e+01 : 1.5238e+01) <  7.5000e+01 ]
+ADVISORY[3]: read 1 model def from 
+             /home/hanwen/auto/autoclass.model
+ADVISORY[2]: log_transform is being applied to attribute #1:
+             "a1" and will be stored as attribute #6.
+   Attribute #6, "Log a1":
+      [  4.1744e+00 < ( 4.5929e+00 : 1.5762e-01) <  4.9416e+00 ]
+ADVISORY[2]: log_transform is being applied to attribute #2:
+             "a2" and will be stored as attribute #7.
+   Attribute #7, "Log a2":
+      [  2.8904e+00 < ( 3.5773e+00 : 4.1618e-01) <  4.3175e+00 ]
+
+############ Input Check Concluded ##############
+
+WELCOME TO AUTOCLASS.
+  1) Each time I have finished a new 'trial', or attempt to find a good
+     classification, I will print the number of classes that trial
+     started and ended with, such as 9->7.
+  2) If that trial results in a duplicate of a previous run, I will print
+     'dup' first.
+  3) If that trial results in a classification better than any previous, 
+     I will print 'best' first.
+  4) If more than 30 seconds have passed since the last report, and a new
+     classification has been found which is better than any previous ones,
+     I will report on that classification and on the status of the search
+     so far.
+  5) This report will include an estimate of the time it will take to find
+     another even better classification, and how much better that will be.
+     In addition, I will estimate a lower bound on how long it might take to
+     find the very best classification, and how much better that might be.
+  6) If you are warned about too much time in overhead, you may want to
+     change the parameters n_save, min_save_period, min_report_period, or
+     min_checkpoint_period.
+  7) To quit searching, type a 'q', hit <return>, and wait.  Otherwise I'll
+     go on until Mon Feb 27 05:52:33 2023.
+  8) If needed, every 30 minutes I will save the best 2 classifications
+     so far to file: 
+     /home/hanwen/auto/autoclass.results-bin
+     and a description of the search to file:
+     /home/hanwen/auto/autoclass.search
+  9) A record of this search will be printed to file:
+     /home/hanwen/auto/autoclass.log
+
+BEGINNING SEARCH at Mon Feb 27 04:52:33 2023
+
+[j_in=2]  [cs-3: cycles 13] best2->2(1) [j_in=3]  [cs-3: cycles 18] best3->3(2) [j_in=5]  [cs-3: cycles 26] best5->5(3) [j_in=7]  [cs-3: cycles 41] best7->7(4) [j_in=10]  [cs-3: cycles 62] 10->10(5) [j_in=15]  [cs-3: cycles 120] 15->15(6) [j_in=25]  [cs-3: cycles 232] 25->25(7) [j_in=35]  [cs-3: cycles 206] 35->31(8) [j_in=45]  [cs-3: cycles 112] 45->40(9) [j_in=55]  [cs-3: cycles 141] 55->42(10) [j_in=65]  [cs-3: cycles 265] 65->45(11) [j_in=75]  [cs-3: cycles 113] 75->50(12) [j_in=85]  [cs-3: cycles 153] 85->53(13) [j_in=95]  [cs-3: cycles 147] 95->52(14) [j_in=105]  [cs-3: cycles 264] 105->53(15) [j_in=80]  [cs-3: cycles 249] 80->48(16) [j_in=36]  [cs-3: cycles 283] 36->31(17) [j_in=18]  [cs-3: cycles 72] 18->18(18) [j_in=17]  [cs-3: cycles 45] 17->17(19) [j_in=17]  [cs-3: cycles 45] dup17->17(20) [j_in=17]  [cs-3: cycles 45] dup17->17(21) [j_in=17]  [cs-3: cycles 45] dup17->17(22) [j_in=17]  [cs-3: cycles 45] dup17->17(23) [j_in=17]  [cs-3: cycles 45] dup17->17(24) [j_in=17]  [cs-3: cycles 45] dup17->17(25) [j_in=17]  [cs-3: cycles 45] dup17->17(26) [j_in=17]  [cs-3: cycles 45] dup17->17(27) [j_in=17]  [cs-3: cycles 45] dup17->17(28) [j_in=17]  [cs-3: cycles 45] dup17->17(29) [j_in=17]  [cs-3: cycles 45] dup17->17(30) [j_in=17]  [cs-3: cycles 74] 17->17(31) [j_in=13]  [cs-3: cycles 53] 13->13(32) [j_in=3]  [cs-3: cycles 23] 3->3(33) [j_in=12]  [cs-3: cycles 48] 12->12(34) [j_in=6]  [cs-3: cycles 49] 6->6(35) [j_in=11]  [cs-3: cycles 56] 11->11(36) [j_in=8]  [cs-3: cycles 47] 8->8(37) [j_in=7]  [cs-3: cycles 50] 7->7(38) [j_in=6]  [cs-3: cycles 49] dup6->6(39) [j_in=11]  [cs-3: cycles 56] dup11->11(40) [j_in=8]  [cs-3: cycles 47] 8->8(41) [j_in=7]  [cs-3: cycles 50] 7->7(42) [j_in=6]  [cs-3: cycles 49] dup6->6(43) [j_in=11]  [cs-3: cycles 56] dup11->11(44) [j_in=8]  [cs-3: cycles 47] 8->8(45) [j_in=7]  [cs-3: cycles 50] 7->7(46) [j_in=6]  [cs-3: cycles 49] dup6->6(47) [j_in=11]  [cs-3: cycles 56] dup11->11(48) [j_in=8]  [cs-3: cycles 47] 8->8(49) [j_in=7]  [cs-3: cycles 50] 7->7(50) [j_in=6]  [cs-3: cycles 49] dup6->6(51) [j_in=11]  [cs-3: cycles 56] dup11->11(52) [j_in=8]  [cs-3: cycles 47] 8->8(53) [j_in=7]  [cs-3: cycles 50] 7->7(54) [j_in=6]  [cs-3: cycles 49] dup6->6(55) [j_in=11]  [cs-3: cycles 56] dup11->11(56) [j_in=8]  [cs-3: cycles 47] 8->8(57) [j_in=7]  [cs-3: cycles 50] 7->7(58) [j_in=6]  [cs-3: cycles 49] dup6->6(59) [j_in=11]  [cs-3: cycles 56] dup11->11(60) [j_in=8]  [cs-3: cycles 47] 8->8(61) [j_in=7]  [cs-3: cycles 50] 7->7(62) [j_in=6]  [cs-3: cycles 49] dup6->6(63) [j_in=11]  [cs-3: cycles 56] dup11->11(64) [j_in=8]  [cs-3: cycles 47] 8->8(65) [j_in=7]  [cs-3: cycles 50] 7->7(66) [j_in=6]  [cs-3: cycles 49] dup6->6(67) [j_in=11]  [cs-3: cycles 77] 11->11(68) [j_in=9]  [cs-3: cycles 37] 9->9(69) [j_in=8]  [cs-3: cycles 100] 8->8(70) [j_in=12]  [cs-3: cycles 71] 12->12(71) [j_in=10]  [cs-3: cycles 95] 10->10(72) [j_in=6]  [cs-3: cycles 101] best6->6(73) [j_in=5]  [cs-3: cycles 21] 5->5(74) [j_in=4]  [cs-3: cycles 29] 4->4(75) [j_in=6]  [cs-3: cycles 101] dup6->6(76) [j_in=5]  [cs-3: cycles 21] dup5->5(77) [j_in=4]  [cs-3: cycles 29] 4->4(78) [j_in=6]  [cs-3: cycles 101] dup6->6(79) [j_in=5]  [cs-3: cycles 21] dup5->5(80) [j_in=4]  [cs-3: cycles 29] 4->4(81) [j_in=6]  [cs-3: cycles 101] dup6->6(82) [j_in=5]  [cs-3: cycles 21] dup5->5(83) [j_in=4]  [cs-3: cycles 29] 4->4(84) [j_in=6]  [cs-3: cycles 101] dup6->6(85) [j_in=5]  [cs-3: cycles 21] dup5->5(86) [j_in=4]  [cs-3: cycles 29] 4->4(87) [j_in=6]  [cs-3: cycles 101] dup6->6(88) [j_in=5]  [cs-3: cycles 21] dup5->5(89) [j_in=4]  [cs-3: cycles 29] 4->4(90) [j_in=6]  [cs-3: cycles 101] dup6->6(91) [j_in=5]  [cs-3: cycles 21] dup5->5(92) [j_in=4]  [cs-3: cycles 29] 4->4(93) [j_in=6]  [cs-3: cycles 101] dup6->6(94) [j_in=5]  [cs-3: cycles 21] dup5->5(95) [j_in=4]  [cs-3: cycles 29] 4->4(96) [j_in=6]  [cs-3: cycles 101] dup6->6(97) [j_in=5]  [cs-3: cycles 21] dup5->5(98) [j_in=4]  [cs-3: cycles 29] 4->4(99) [j_in=6]  [cs-3: cycles 101] dup6->6(100) [j_in=5]  [cs-3: cycles 21] dup5->5(101) [j_in=4]  [cs-3: cycles 29] 4->4(102) [j_in=6]  [cs-3: cycles 101] dup6->6(103) [j_in=5]  [cs-3: cycles 21] dup5->5(104) [j_in=4]  [cs-3: cycles 29] 4->4(105) [j_in=6]  [cs-3: cycles 101] dup6->6(106) [j_in=5]  [cs-3: cycles 21] dup5->5(107) [j_in=4]  [cs-3: cycles 29] 4->4(108) [j_in=6]  [cs-3: cycles 101] dup6->6(109) [j_in=5]  [cs-3: cycles 21] dup5->5(110) [j_in=4]  [cs-3: cycles 29] 4->4(111) [j_in=6]  [cs-3: cycles 101] dup6->6(112) [j_in=5]  [cs-3: cycles 21] dup5->5(113) [j_in=4]  [cs-3: cycles 29] 4->4(114) [j_in=6]  [cs-3: cycles 101] dup6->6(115) [j_in=5]  [cs-3: cycles 21] dup5->5(116) [j_in=4]  [cs-3: cycles 29] 4->4(117) [j_in=6]  [cs-3: cycles 101] dup6->6(118) [j_in=5]  [cs-3: cycles 54] 5->5(119) [j_in=19]  [cs-3: cycles 62] 19->19(120) [j_in=9]  [cs-3: cycles 45] 9->9(121) [j_in=7]  [cs-3: cycles 37] best7->7(122) [j_in=11]  [cs-3: cycles 133] 11->10(123) [j_in=12]  [cs-3: cycles 69] 12->12(124) [j_in=8]  [cs-3: cycles 45] best8->8(125) [j_in=6]  [cs-3: cycles 43] 6->6(126) [j_in=13]  [cs-3: cycles 57] 13->13(127) [j_in=7]  [cs-3: cycles 37] dup7->7(128) [j_in=10]  [cs-3: cycles 43] 10->10(129) [j_in=10]  [cs-3: cycles 43] dup10->10(130) [j_in=10]  [cs-3: cycles 43] dup10->10(131) [j_in=10]  [cs-3: cycles 43] dup10->10(132) [j_in=10]  [cs-3: cycles 43] dup10->10(133) [j_in=10]  [cs-3: cycles 43] dup10->10(134) [j_in=10]  [cs-3: cycles 43] dup10->10(135) [j_in=10]  [cs-3: cycles 43] dup10->10(136) [j_in=10]  [cs-3: cycles 43] dup10->10(137) [j_in=10]  [cs-3: cycles 43] dup10->10(138) [j_in=10]  [cs-3: cycles 43] dup10->10(139) [j_in=10]  [cs-3: cycles 43] dup10->10(140) [j_in=10]  [cs-3: cycles 43] dup10->10(141) [j_in=10]  [cs-3: cycles 43] dup10->10(142) [j_in=10]  [cs-3: cycles 43] dup10->10(143) [j_in=10]  [cs-3: cycles 43] dup10->10(144) [j_in=10]  [cs-3: cycles 43] dup10->10(145) [j_in=10]  [cs-3: cycles 43] dup10->10(146) [j_in=10]  [cs-3: cycles 43] dup10->10(147) [j_in=10]  [cs-3: cycles 43] dup10->10(148) [j_in=10]  [cs-3: cycles 43] dup10->10(149) [j_in=10]  [cs-3: cycles 43] dup10->10(150) [j_in=10]  [cs-3: cycles 43] dup10->10(151) [j_in=10]  [cs-3: cycles 43] dup10->10(152) [j_in=10]  [cs-3: cycles 43] dup10->10(153) [j_in=10]  [cs-3: cycles 43] dup10->10(154) [j_in=10]  [cs-3: cycles 43] dup10->10(155) [j_in=10]  [cs-3: cycles 43] dup10->10(156) [j_in=10]  [cs-3: cycles 109] 10->10(157) [j_in=7]  [cs-3: cycles 30] 7->7(158) [j_in=6]  [cs-3: cycles 73] 6->6(159) [j_in=7]  [cs-3: cycles 30] dup7->7(160) [j_in=6]  [cs-3: cycles 73] dup6->6(161) [j_in=7]  [cs-3: cycles 30] dup7->7(162) [j_in=6]  [cs-3: cycles 73] dup6->6(163) [j_in=7]  [cs-3: cycles 30] dup7->7(164) [j_in=6]  [cs-3: cycles 73] dup6->6(165) [j_in=7]  [cs-3: cycles 30] dup7->7(166) [j_in=6]  [cs-3: cycles 73] dup6->6(167) [j_in=7]  [cs-3: cycles 30] dup7->7(168) [j_in=6]  [cs-3: cycles 73] dup6->6(169) [j_in=7]  [cs-3: cycles 30] dup7->7(170) [j_in=6]  [cs-3: cycles 73] dup6->6(171) [j_in=7]  [cs-3: cycles 30] dup7->7(172) [j_in=6]  [cs-3: cycles 73] dup6->6(173) [j_in=7]  [cs-3: cycles 30] dup7->7(174) [j_in=6]  [cs-3: cycles 73] dup6->6(175) [j_in=7]  [cs-3: cycles 30] dup7->7(176) [j_in=6]  [cs-3: cycles 73] dup6->6(177) [j_in=7]  [cs-3: cycles 30] dup7->7(178) [j_in=6]  [cs-3: cycles 73] dup6->6(179) [j_in=7]  [cs-3: cycles 30] dup7->7(180) [j_in=6]  [cs-3: cycles 73] dup6->6(181) [j_in=7]  [cs-3: cycles 30] dup7->7(182) [j_in=6]  [cs-3: cycles 73] dup6->6(183) [j_in=7]  [cs-3: cycles 30] dup7->7(184) [j_in=6]  [cs-3: cycles 73] dup6->6(185) [j_in=7]  [cs-3: cycles 30] dup7->7(186) [j_in=6]  [cs-3: cycles 73] dup6->6(187) [j_in=7]  [cs-3: cycles 30] dup7->7(188) [j_in=6]  [cs-3: cycles 73] dup6->6(189) [j_in=7]  [cs-3: cycles 30] dup7->7(190) [j_in=6]  [cs-3: cycles 73] dup6->6(191) [j_in=7]  [cs-3: cycles 30] dup7->7(192) [j_in=6]  [cs-3: cycles 73] dup6->6(193) [j_in=7]  [cs-3: cycles 30] dup7->7(194) [j_in=6]  [cs-3: cycles 73] dup6->6(195) [j_in=7]  [cs-3: cycles 30] dup7->7(196) [j_in=6]  [cs-3: cycles 73] dup6->6(197) [j_in=7]  [cs-3: cycles 30] dup7->7(198) [j_in=6]  [cs-3: cycles 73] dup6->6(199) [j_in=7]  [cs-3: cycles 30] dup7->7(200) 
+
+
+ENDING SEARCH because max number of tries reached at Mon Feb 27 04:52:41 2023
+  after a total of 200 tries over 9 seconds
+A log of this search is in file:
+ /home/hanwen/auto/autoclass.log
+The search results are stored in file:
+ /home/hanwen/auto/autoclass.results-bin
+This search can be restarted by having "force_new_search_p = false" in file:
+ /home/hanwen/auto/autoclass.s-params
+ and reinvoking the "autoclass -search ..." form
+
+------------------  SUMMARY OF 10 BEST RESULTS  ------------------
+PROBABILITY  exp(-5589.322) N_CLASSES   8 FOUND ON TRY  125 *SAVED*
+PROBABILITY  exp(-5600.674) N_CLASSES  10 FOUND ON TRY  157 *SAVED*
+PROBABILITY  exp(-5605.949) N_CLASSES   7 FOUND ON TRY  122 DUPS  1
+PROBABILITY  exp(-5607.973) N_CLASSES   6 FOUND ON TRY  159 DUPS  20
+PROBABILITY  exp(-5608.025) N_CLASSES   6 FOUND ON TRY   73 DUPS  15
+PROBABILITY  exp(-5609.605) N_CLASSES   5 FOUND ON TRY  119
+PROBABILITY  exp(-5611.127) N_CLASSES   7 FOUND ON TRY  158 DUPS  21
+PROBABILITY  exp(-5614.757) N_CLASSES   7 FOUND ON TRY    4
+PROBABILITY  exp(-5620.474) N_CLASSES   8 FOUND ON TRY   70
+PROBABILITY  exp(-5627.690) N_CLASSES  10 FOUND ON TRY  123
+
+------------------  SUMMARY OF TRY CONVERGENCE  ------------------
+try  125    num_cycles   45    max_cycles 1000    convergent
+try  157    num_cycles  109    max_cycles 1000    convergent
+try  122    num_cycles   37    max_cycles 1000    convergent
+try  159    num_cycles   73    max_cycles 1000    convergent
+try   73    num_cycles  101    max_cycles 1000    convergent
+try  119    num_cycles   54    max_cycles 1000    convergent
+try  158    num_cycles   30    max_cycles 1000    convergent
+try    4    num_cycles   41    max_cycles 1000    convergent
+try   70    num_cycles  100    max_cycles 1000    convergent
+try  123    num_cycles  133    max_cycles 1000    convergent
+
+AUTOCLASS C (version 3.3.6unx) STOPPING at Mon Feb 27 04:52:41 2023 

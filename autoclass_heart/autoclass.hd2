@@ -1,0 +1,19 @@
+num_db2_format_defs 2
+
+number_of_attributes 14
+separator_char '	'
+
+0 dummy nil "ID"
+1 real scalar "age" zero_point 0.0 rel_error 0.01
+2 real scalar "trestbps" zero_point 0.0 rel_error 0.01
+3 real scalar "chol" zero_point 0.0 rel_error 0.01
+4 real scalar "thalach" zero_point 0.0 rel_error 0.01
+5 real scalar "oldpeak" zero_point 0.0 rel_error 0.01
+6 discrete nominal "sex" range 2
+7 discrete nominal "cp" range 4
+8 discrete nominal "fbs" range 2
+9 discrete nominal "restecg" range 3
+10 discrete nominal "exang" range 2
+11 discrete nominal "slope" range 3
+12 discrete nominal "ca" range 5
+13 discrete nominal "thal" range 4
